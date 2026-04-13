@@ -1,0 +1,6 @@
+Version: 1.16.0
+Installer:
+- Architecture: x64
+  InstallerUrl: https://releases.aptakube.com/Aptakube_1.16.0_x64_en-US.msi
+Locale: []
+ReleaseTime: 2026-04-13T08:25:51.0000000Z
