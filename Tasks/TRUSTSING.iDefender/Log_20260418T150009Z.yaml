@@ -1,0 +1,27 @@
+Version: 5.5.2.0
+Installer:
+- InstallerUrl: https://trustsing.com/publish/iDefender.exe
+  InstallerSha256: 75349FA63923CFE60019C2D8822F32E7E37EA46110E9F2A675BE9757A6C58D82
+Locale:
+- Locale: zh-CN
+  Key: ReleaseNotesUrl
+  Value: https://trustsing.com/idefender/
+- Locale: zh-CN
+  Key: ReleaseNotes
+  Value: |-
+    - 添加 RegSaveKey 的监控支持
+      - 拦截保存注册表项窃取登录凭据的方式
+    - 多事件关联规则引擎添加时间窗口约束支持
+    - 优化延迟加载的动态库的 Hook
+      - 修复某个场景拦截防火墙修改不生效的问题
+    - 优化发起进程识别的逻辑
+    - 修复注入无法正常拦截的问题
+    - 修复缩放在睡眠唤醒后可能异常的问题
+    - 修复可能导致人脸识别或者指纹登录异常的问题
+    - 规则优化
+      - 修复一些误报
+      - 添加更多检测规则
+- Locale: zh-CN
+  Key: ReleaseNotesUrl
+  Value: https://trustsing.com/idefender/#_5-5-2-0
+LastModified: Sat, 18 Apr 2026 13:27:53 GMT
