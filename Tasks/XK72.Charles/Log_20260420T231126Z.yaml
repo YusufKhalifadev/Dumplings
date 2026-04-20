@@ -1,0 +1,23 @@
+Version: "5.1"
+Installer:
+- Architecture: x64
+  InstallerUrl: https://www.charlesproxy.com/assets/release/5.1/charles-proxy-5.1-win-x86_64.appx
+Locale:
+- Locale: en-US
+  Key: ReleaseNotes
+  Value: |-
+    Major improvements
+    - Java 25 upgrade means we can use virtual threads which should improve overall performance
+    - Performance improvements in rendering
+    - Proxying toggle added to the toolbar that toggles system proxy settings on / off (if available)
+    Minor improvements
+    - All open transactions are now stopped when recording stops to prevent time calculations running forever
+    - Map Remote from an HTTP 2 request to HTTP 1.1
+    - Improved location matching of CONNECT requests; they will now match https URLs
+    Bug fixes
+    - macOS: Fix "Install Charles Root Certificate in Java VMs"
+    - macOS: Mouse wheel no longer accelerates outrageously on tall text views
+    - Windows: icons now sharp at 150% screen resolution
+    - Windows: .msi now shows a UI rather than installing silently
+RealVersion: 5.1.0.11
+ReleaseTime: 2026-04-21
