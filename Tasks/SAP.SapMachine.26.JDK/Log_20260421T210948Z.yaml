@@ -1,0 +1,6 @@
+Version: 26.0.1
+Installer:
+- Architecture: x64
+  InstallerUrl: https://github.com/SAP/SapMachine/releases/download/sapmachine-26.0.1/sapmachine-jdk-26.0.1_windows-x64_bin.msi
+Locale: []
+RealVersion: 26.0.1

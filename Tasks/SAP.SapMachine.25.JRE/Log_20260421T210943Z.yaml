@@ -1,0 +1,6 @@
+Version: 25.0.3
+Installer:
+- Architecture: x64
+  InstallerUrl: https://github.com/SAP/SapMachine/releases/download/sapmachine-25.0.3/sapmachine-jre-25.0.3_windows-x64_bin.msi
+Locale: []
+RealVersion: 25.0.3
