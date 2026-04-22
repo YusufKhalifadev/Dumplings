@@ -1,0 +1,9 @@
+Version: 0.8.34
+Installer:
+- Architecture: x64
+  InstallerUrl: https://download.todesktop.com/241012ess7yxs0e/ComfyUI Setup 0.8.34 - Build 260422zp4ofkbkg-x64.exe
+Locale:
+- Locale: en-US
+  Key: ReleaseNotesUrl
+  Value: https://github.com/Comfy-Org/desktop/releases
+ReleaseTime: 2026-04-22T02:06:42.0000000Z
