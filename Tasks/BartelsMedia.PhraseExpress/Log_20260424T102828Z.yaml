@@ -1,0 +1,17 @@
+Version: 18.0.69
+Installer:
+- InstallerType: inno
+  InstallerUrl: https://www.phraseexpress.com/PhraseExpressSetup.exe
+  InstallerSha256: CB9ECAC66549C5D543BA25C6066269FAC988598F01EDE0BE3703ECC8A1BD72DD
+- InstallerType: msi
+  InstallerUrl: https://www.phraseexpress.com/PhraseExpressSetup.msi
+Locale:
+- Locale: en-US
+  Key: ReleaseNotes
+  Value: |-
+    - PhraseExpress now synchronizes custom phrase sorting.
+    - Synchronization of single moved items between phrase folders.
+    - Crash with very long macros
+    - Less flickering when switching AI engines in the settings.
+LastModified: Fri, 24 Apr 2026 09:22:44 GMT
+ReleaseTime: 2026-04-24
