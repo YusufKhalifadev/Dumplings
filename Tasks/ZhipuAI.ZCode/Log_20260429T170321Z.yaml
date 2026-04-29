@@ -1,0 +1,9 @@
+Version: 1.7.0
+Installer:
+- Architecture: x64
+  InstallerUrl: https://cdn.zcode-ai.com/zcode/electron/releases/1.7.0/ZCode-1.7.0-win-x64.exe
+Locale:
+- Locale: zh-CN
+  Key: ReleaseNotes
+  Value: ""
+ReleaseTime: 2026-04-29T15:28:29.0000000Z
