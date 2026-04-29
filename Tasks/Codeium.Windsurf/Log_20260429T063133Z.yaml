@@ -1,0 +1,40 @@
+Version: 2.1.29
+Installer:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-x64-user/stable/5dab04154a4694324d3f81c0885897e41d0d2f82/WindsurfUserSetup-x64-2.1.29.exe
+  InstallerSha256: 89C2F547A01BEFE71B7EFF3C0220B7AC9469647F4F225163601A9571576345CA
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-x64/stable/5dab04154a4694324d3f81c0885897e41d0d2f82/WindsurfSetup-x64-2.1.29.exe
+  InstallerSha256: 4906EE1D5BED39659C2CA6F503FE55171192FB49F25CA942315E7E0C7E6A4DFB
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-arm64-user/stable/5dab04154a4694324d3f81c0885897e41d0d2f82/WindsurfUserSetup-arm64-2.1.29.exe
+  InstallerSha256: C71A8BA8F8EED4BB1398AD9EDFFAFAF666E411161D5F11326EAE534D4F792904
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-arm64/stable/5dab04154a4694324d3f81c0885897e41d0d2f82/WindsurfSetup-arm64-2.1.29.exe
+  InstallerSha256: FCE908D16BF25E8CE5704611509879401CD062533E30FF3488498C40BA9D9F9C
+Locale:
+- Locale: en-US
+  Key: ReleaseNotes
+  Value: |-
+    Devin for Terminal
+    Devin is now available for Terminal. All Windsurf users can use this new CLI agent with your existing subscription.
+    - Runs on your machine — Optimized for interactive work, with full access to your codebase, tools, and environment.
+    - Hand off to the cloud — Seamless hand off to Devin in the cloud, with its own VM, testing, video recordings, autofix and more. Come back to a finished PR.
+    - Multi-model — All of your favorite frontier models in one place, including Opus 4.7, GPT-5.5, and SWE-1.6.
+    - Fast — Written in Rust and so performant that the binary can run on an original VT100.
+
+    Devin Agent in Windsurf
+    You can also enable the new Devin Local agent in Windsurf. This is the same agent harness used on the terminal and sessions can be accessed from both Windsurf and the CLI.
+    In our testing, it's up to 30% more token-efficient than the existing Cascade agent.
+
+    Additional Changes
+    - Improved search subtitle layout during streaming
+    - Fixed file drag-and-drop in agent window Cascade tabs
+    - Fixed Go to Line/Column keybinding on Windows/Linux (Ctrl+Shift+G)
+    - Added support for server-driven extension deny lists
+    - Stability and performance improvements
+ReleaseTime: 2026-04-29T01:44:03.0000000Z
