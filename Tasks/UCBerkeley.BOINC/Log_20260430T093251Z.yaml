@@ -1,0 +1,18 @@
+Version: 8.2.11
+Installer:
+- Architecture: x64
+  InstallerUrl: https://boinc.berkeley.edu/dl/boinc_8.2.11_windows_x86_64.exe
+  ProductCode: '{5D0F44A1-49A9-409E-A8DD-A5116A3BF7D9}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{E913E54D-5080-42EC-A312-B21948BA1C02}'
+    InstallerType: msi
+- Architecture: arm64
+  InstallerUrl: https://boinc.berkeley.edu/dl/boinc_8.2.11_windows_arm64.exe
+  ProductCode: '{07274359-9296-49AD-8F45-F0E61296F83F}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{E913E54D-5080-42EC-A312-B21948BA1C02}'
+    InstallerType: msi
+Locale:
+- Key: ReleaseNotesUrl
+  Value: https://github.com/BOINC/boinc/releases
+ReleaseTime: 2026-04-20
