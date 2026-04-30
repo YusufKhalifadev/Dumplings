@@ -1,0 +1,10 @@
+Version: 1.12.17
+Installer:
+- Architecture: x64
+  InstallerUrl: https://packages.element.io/desktop/install/win32/x64/Element Setup 1.12.17.exe
+- Architecture: arm64
+  InstallerUrl: https://packages.element.io/desktop/install/win32/arm64/Element Setup 1.12.17.exe
+Locale:
+- Locale: en-US
+  Key: ReleaseNotesUrl
+  Value: https://github.com/element-hq/element-web/releases
