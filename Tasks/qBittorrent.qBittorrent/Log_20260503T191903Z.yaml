@@ -1,0 +1,17 @@
+Version: 5.2.0
+Installer:
+- Architecture: x64
+  InstallerUrl: https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-5.2.0/qbittorrent_5.2.0_x64_setup.exe/download
+Locale:
+- Locale: en-US
+  Key: ReleaseNotes
+  Value: |-
+    qBittorrent v5.2.0rc1 was released.
+    macOS builds will be available on a later date.
+    AppImages should work natively under Wayland now.
+    A changelog for v5.2.0rc1 is not available.
+    Library versions
+    libtorrent 1.2.20+gitc5ff6c3186 / 2.0.11+gitf54abf695e
+    Qt 6.10.2
+    Boost 1.86 / 1.90
+ReleaseTime: 2026-05-03T19:10:36.0000000Z
