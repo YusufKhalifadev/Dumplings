@@ -1,0 +1,20 @@
+Version: 2.2.17
+Installer:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-x64-user/stable/a65d6c4e1fd335336d7a0b601099811667e184ca/WindsurfUserSetup-x64-2.2.17.exe
+  InstallerSha256: A399CAF06DB9BF0168DB99A7CA83E4AC964BFB7BBF58DEE6E715838BF22C6FA7
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-x64/stable/a65d6c4e1fd335336d7a0b601099811667e184ca/WindsurfSetup-x64-2.2.17.exe
+  InstallerSha256: AB82F43EDD84F223F98354A66148E8BC984714F125835A6F463B1C14113E4375
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-arm64-user/stable/a65d6c4e1fd335336d7a0b601099811667e184ca/WindsurfUserSetup-arm64-2.2.17.exe
+  InstallerSha256: 7B2DAD11190F1ECBBE4B82E87E76E59C3AA2CF1C5C9C7DCF56D8507660A15524
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://windsurf-stable.codeiumdata.com/win32-arm64/stable/a65d6c4e1fd335336d7a0b601099811667e184ca/WindsurfSetup-arm64-2.2.17.exe
+  InstallerSha256: 7815EEEAD27CB275C33ACE3C4F5D9E1E3F6F42BB0198484389A40983D6D9F91E
+Locale: []
+ReleaseTime: 2026-05-06T05:17:40.0000000Z
