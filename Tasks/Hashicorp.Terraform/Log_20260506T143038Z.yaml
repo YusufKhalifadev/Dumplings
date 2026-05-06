@@ -1,0 +1,12 @@
+Version: 1.15.2
+Installer:
+- Architecture: x86
+  InstallerType: zip
+  InstallerUrl: https://releases.hashicorp.com/terraform/1.15.2/terraform_1.15.2_windows_386.zip
+- Architecture: x64
+  InstallerType: zip
+  InstallerUrl: https://releases.hashicorp.com/terraform/1.15.2/terraform_1.15.2_windows_amd64.zip
+Locale:
+- Locale: en-US
+  Key: ReleaseNotesUrl
+  Value: https://github.com/hashicorp/terraform/releases
