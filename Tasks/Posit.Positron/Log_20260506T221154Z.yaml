@@ -1,0 +1,23 @@
+Version: 2026.05.1-2
+Installer:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://cdn.posit.co/positron/releases/win/x86_64/Positron-2026.05.1-2-UserSetup-x64.exe
+  InstallerSha256: 293FA1B25305A508386E591FDCEA7AAB8FD19B0A7D71A17D4F0D7135F50DA6AE
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://cdn.posit.co/positron/releases/win/x86_64/Positron-2026.05.1-2-Setup-x64.exe
+  InstallerSha256: 145B2F805FF37B6E69FB1F59A4CBDCA1E17C8D592D4B9A0A231E53B7308141E3
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://cdn.posit.co/positron/releases/win/arm64/Positron-2026.05.1-2-UserSetup-arm64.exe
+  InstallerSha256: A3C9A8EA54B24CD53A9618D447C14DEA063919F3FA072920A8169DFD943A9D3F
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://cdn.posit.co/positron/releases/win/arm64/Positron-2026.05.1-2-Setup-arm64.exe
+  InstallerSha256: 7B9D1D166F29443DD6A68EDE7825817D20C69C373064F7B00A14B0C3833A9D81
+Locale:
+- Key: ReleaseNotesUrl
+  Value: 
+ReleaseTime: 2026-05-06T21:32:19.0000000Z
+RealVersion: 2026.05.1
