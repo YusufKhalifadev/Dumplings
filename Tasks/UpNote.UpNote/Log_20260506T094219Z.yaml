@@ -1,0 +1,8 @@
+Version: 9.18.9
+Installer:
+- InstallerUrl: https://download.getupnote.com/app/UpNote Setup.exe
+Locale:
+- Locale: en-US
+  Key: ReleaseNotes
+  Value: '- Fixed a bug where exporting notes to PDF does not work.'
+ReleaseTime: 2026-05-06T08:58:44.8150000Z
