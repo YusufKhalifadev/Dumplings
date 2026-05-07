@@ -1,0 +1,41 @@
+Version: 150.0.2
+Installer:
+- Architecture: x86
+  InstallerType: nullsoft
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.2/win32/en-US/Firefox Setup 150.0.2.exe
+  InstallerSha256: D6217BBEE5B91C1648A909DF4F92E98D004A2B1F260488A567ED4ABC632AB59E
+  ProductCode: Mozilla Firefox
+- Architecture: x64
+  InstallerType: nullsoft
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.2/win64/en-US/Firefox Setup 150.0.2.exe
+  InstallerSha256: 0458E29F4F4B709B6677D07656937ABECDE7EFF2069DB19884D0FA0DDC531E83
+  ProductCode: Mozilla Firefox
+- Architecture: arm64
+  InstallerType: nullsoft
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.2/win64-aarch64/en-US/Firefox Setup 150.0.2.exe
+  InstallerSha256: 2C6A70398E3B288AA2DBA14423D61091CF1DC9D2A4EC5499ED92AFED2C64BF69
+  ProductCode: Mozilla Firefox
+Locale:
+- Key: ReleaseNotesUrl
+  Value: 
+- Locale: en-US
+  Key: ReleaseNotesUrl
+  Value: https://www.firefox.com/en-US/firefox/150.0.2/releasenotes/
+- Locale: en-US
+  Key: ReleaseNotes
+  Value: |-
+    Version 150.0.2, first offered to Release channel users on May 7, 2026
+
+    Fixed
+    - Fixed an issue where websites on internal or corporate networks that require a login prompt would show a blank page. (Bug 2034752)
+    - Fixed an issue that prevented highlighting from working on scanned images in the built-in PDF viewer. (Bug 2034980)
+    - Fixed an issue where the "New" badge persisted on Split View menu items. (Bug 2027793)
+    - Fixed an issue that prevented some webcams from working correctly in video calls. (Bug 2034722)
+    - Fixed an issue where a tab would crash when dragging and dropping nested folders onto a webpage. (Bug 2030461)
+    - Improved how Firefox displays websites with advanced 3D effects, fixing cases where parts of the page could disappear or appear incorrectly. (Bug 2034283)
+    - Fixed an issue that could prevent Firefox’s local backup feature from completing successfully. (Bug 2029240)
+    - Fixed an issue where the status and navigation bars would flicker or show mismatched colors when editing a page’s address. (Bug 2021596)
+    - Improved the appearance of search suggestions in the address bar by preventing icons from appearing stretched or distorted. (Bug 2035353)
+    - Various security fixes.
+    - Reference link to 150.0.1 release notes.
+ReleaseTime: 2026-05-07
