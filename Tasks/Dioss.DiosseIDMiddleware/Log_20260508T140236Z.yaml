@@ -1,0 +1,10 @@
+Version: 5.0.1.0
+Installer:
+- InstallerUrl: https://files.dioss.com/public.php/dav/files/e9owfpfTN7W7JZ2/Dioss_Middleware_Setup.msi
+  InstallerSha256: 80AEADCBA04784EC6500AADA0DA2D733B2F5E4A50EFBECC3A3388976D0767583
+  ProductCode: '{424A8E1B-B561-4F9E-831D-21353D48CE63}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{F58A0C53-3AB4-4F12-A808-BAB0AE3AF764}'
+Locale: []
+ETag:
+- '"bef4b2f416b9b48faad2737826f16074"'
