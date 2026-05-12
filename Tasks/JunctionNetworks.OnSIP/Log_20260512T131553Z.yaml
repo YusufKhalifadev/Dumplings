@@ -1,0 +1,6 @@
+Version: 3.34.3
+Installer:
+- InstallerUrl: https://www.onsip.com/hubfs/ONSIP3343WINDOWS.exe
+Locale:
+- Key: ReleaseNotesUrl
+  Value: https://www.onsip.com/app/release-notes/all
