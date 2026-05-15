@@ -1,0 +1,26 @@
+Version: 1.98.2
+Installer:
+- InstallerType: burn
+  InstallerUrl: https://pkgs.tailscale.com/stable/tailscale-setup-full-1.98.2.exe
+- Architecture: x86
+  InstallerType: wix
+  InstallerUrl: https://pkgs.tailscale.com/stable/tailscale-setup-1.98.2-x86.msi
+- Architecture: x64
+  InstallerType: wix
+  InstallerUrl: https://pkgs.tailscale.com/stable/tailscale-setup-1.98.2-amd64.msi
+- Architecture: arm64
+  InstallerType: wix
+  InstallerUrl: https://pkgs.tailscale.com/stable/tailscale-setup-1.98.2-arm64.msi
+Locale:
+- Key: ReleaseNotesUrl
+  Value: https://tailscale.com/changelog
+- Locale: en-US
+  Key: ReleaseNotes
+  Value: |-
+    All Platforms
+    - Changed: Go is updated to 1.26.3.
+    - Fixed: A regression from 1.98.0 is patched, ensuring MagicDNS resolves tailnet hostnames after a network change. Windows clients are unaffected.
+- Locale: en-US
+  Key: ReleaseNotesUrl
+  Value: https://tailscale.com/changelog/#2026-05-15-client
+ReleaseTime: 2026-05-15T00:00:00.0000000Z
